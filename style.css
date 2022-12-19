@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image:url("./a91405df5998c36ce59534faa7f09980.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover; */
+    background-color: #E5D9B6;
+    min-width: 300px;
+    color:#285430;
+    font-family:'Roboto', sans-serif;
+    font-weight:600;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* #random:hover{
+
+} */
+#random{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    /* box-shadow: 10px 10px 10px 10px; */
+    /* height: 20vh; */
+    /* height: 10vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#font{
+    font-size:x-large;
+}
+/* #random img{
+    width: 100%;
+    height: 100%;
+} */
+.material{
+    min-width: 50px;
+}
+#search{
+    font-size: larger;
+}
+#ss,#ss1{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#ss1{
+    text-align: center;
+}
+#ss img{
+     width:100%;
+     border-radius: 2%;
+    
+}
+.randomMeal:hover{
+    /* width: 30vw; */
+    transform: scale(1.1);
+}
+.foodCatagory:hover{
+    /* width: 25vw; */
+    transform: scale(1.1);
+}
+.randomMeal{
+     width:25vw;
+     min-width: 150px;
+     padding: 1% 1% 1% 1%;
+     background-color: #A4BE7B;
+     border-radius: 2%;
+     transition: height 0.5s;
+     -webkit-transition: height 0.5s;
+     transition: 1s;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height:100% ; */
+}
+.foodCatagory img{
+    width: 100%;
+}
+#catagory{
+    display: flex;
+    
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding: 2%;
+}
+#first{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 2%;
+}
+#ingredients{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;  
+    text-align: center;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(0,0,0);  */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    /* height:100% ; */
+    background-color:rgba(255, 255, 255, 0.582) ;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.foodCatagory{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2%;
+    width: 20vw;
+    min-width: 200px;
+    padding: 1% 1% 1% 1%;
+    background-color:#A4BE7B;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    transition: height 0.5s;
+     -webkit-transition: height 0.5s;
+     transition: 1s;
+}
+#popup{
+    background-color:#A4BE7B;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* overflow: auto; */
+    height: auto;
+}
+span{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poor Story', cursive;
+    font-size:3rem;
+    font-weight: 900;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+}
+#intro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+.name{
+    width:15vw;
+    text-align: center;
+}
+button{
+    background-color: #285430;
+    margin: 1% 1% 1% 1%;
+    height: 5vh;
+    border-color: #A4BE7B;
+    color: #ffff ;
+}
+#button button{
+    width: 3vw;
+}
+#seach{
+    width: 1vw;
+}
+img{
+    border-radius: 5%;
+}
+#close{
+    position: relative;
+    right: -20%;
+    top:5.75%
+}
